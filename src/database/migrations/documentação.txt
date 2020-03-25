@@ -1,0 +1,5 @@
+# Para criar uma novo migrate:
+npx knex migrate:make nome_tabela
+
+# Para executar o migrate e criar a tabela
+npx knex migrate:latest
